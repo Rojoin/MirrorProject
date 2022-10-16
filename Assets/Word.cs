@@ -5,15 +5,31 @@ using UnityEngine;
 public class Word : MonoBehaviour
 {
     [SerializeField] private Collider2D cl;
-    // Start is called before the first frame update
+    public bool IsMouseOver = false;
+    private float z;
+    private Vector2 difference = Vector2.zero;
+
     void Start()
     {
-        cl = GetComponentInChildren<Collider2D>();
+        cl = GetComponent<Collider2D>();
+        z = transform.position.z;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnMouseDown()
     {
-        
+        difference = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition) - (Vector2)transform.position;
+        Debug.Log(difference);
+    }
+
+    private void OnMouseDrag()
+    {
+        transform.position = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition) - difference;
+    }
+
+
+    void Update()
+
+    {
+        transform.position = new Vector3(transform.position.x, transform.position.y, z);
     }
 }

@@ -22,10 +22,10 @@ public class mirrorCharacter : MonoBehaviour
   
     void Update()
     {
-        if (isHeadEmpty)
-        {
-            Debug.Log("Ya no sos tonto");
-        }
+      if (isHeadEmpty)
+      {
+          Debug.Log("Ya no sos tonto");
+      }
  
     }
     public void OnTriggerEnter2D(Collider2D other)
