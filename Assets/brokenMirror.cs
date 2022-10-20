@@ -6,13 +6,16 @@ using UnityEngine;
 public class brokenMirror : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer currentSpriteRenderer;
-    [SerializeField] private SpriteRenderer[] storedImages;
+    [SerializeField] private Sprite[] storedImages;
     private int imageCounter = 0;
+    private int click = 0;
+    public uint maxClicks = 10;
+    public uint maxImageCounter = 4;
 
     void Start()
     {
         currentSpriteRenderer = GetComponent<SpriteRenderer>();
-        currentSpriteRenderer = storedImages[imageCounter];
+        currentSpriteRenderer.sprite = storedImages[imageCounter];
         imageCounter = 0;
     }
 
@@ -20,18 +23,25 @@ public class brokenMirror : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            imageCounter++;
+            click++;
+            if (click ==maxClicks && imageCounter<maxImageCounter)
+            {
+                imageCounter++;
+                ChangeImage();
+                click = 0;
+            }
         }
 
+        if (imageCounter == maxImageCounter)
+        {
+            Debug.Log("ROTO");
+        }
        
     }
 
     void ChangeImage()
     {
-        if (imageCounter == 10)
-        {
-            currentSpriteRenderer = storedImages[imageCounter / 10];
-        }
+        currentSpriteRenderer.sprite = storedImages[imageCounter];
     }
     
 }
