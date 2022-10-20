@@ -32,7 +32,7 @@ public class brokenMirror : MonoBehaviour
             }
         }
 
-        if (imageCounter == maxImageCounter)
+        if (imageCounter == 4)
         {
             Debug.Log("ROTO");
         }
