@@ -5,6 +5,7 @@ using UnityEngine.Video;
 
 public class LoadVideo : MonoBehaviour
 {
+    [SerializeField] private LevelLoader ll;
     [SerializeField] private VideoClip currentClip;
     [SerializeField] private SpriteRenderer sr;
     private VideoPlayer vp;
@@ -16,6 +17,7 @@ public class LoadVideo : MonoBehaviour
         vp = GetComponent<VideoPlayer>();
         vp.Prepare();
         vp.clip = currentClip;
+        ll = FindObjectOfType<LevelLoader>();
     }
 
     void Update()
@@ -29,7 +31,7 @@ public class LoadVideo : MonoBehaviour
         }
         if (!vp.isPlaying)
         {
-            Debug.Log("Se termino");
+            ll.LoadNextLevel();
         }
     }
 
@@ -44,6 +46,8 @@ public class LoadVideo : MonoBehaviour
         }
 
     }
+
+   
     // Update is called once per frame
 
 }

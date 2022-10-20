@@ -8,23 +8,33 @@ public class mirrorCharacter : MonoBehaviour
     [SerializeField] private int wordsOnFace;
 
     [SerializeField] private Collider2D cl;
-
+    [SerializeField] private LevelLoader ll;
+    private bool startTime = false;
     private HashSet<Collider2D> colliders = new HashSet<Collider2D>();
-    private bool isHeadEmpty => (GetColliders().Count== 0);
+    private bool isHeadEmpty;
     public HashSet<Collider2D> GetColliders() { return colliders; }
 
 
     void Start()
     {
+        ll = FindObjectOfType<LevelLoader>();
         cl = GetComponentInChildren<Collider2D>();
+        isHeadEmpty = false;
+        StartCoroutine(waitSeconds());
     }
 
   
     void Update()
     {
-      if (isHeadEmpty)
+      if (isHeadEmpty & startTime)
       {
-          Debug.Log("Ya no sos tonto");
+          Debug.Log("Flaco porque");
+          ll.LoadNextLevel();
+      }
+
+      if (GetColliders().Count == 0)
+      {
+          isHeadEmpty = true;
       }
  
     }
@@ -36,6 +46,12 @@ public class mirrorCharacter : MonoBehaviour
     public void OnTriggerExit2D(Collider2D other)
     {
         colliders.Remove(other);
+    }
+
+    IEnumerator waitSeconds()
+    {
+        yield return new WaitForSeconds(3f);
+        startTime = true;
     }
 
     

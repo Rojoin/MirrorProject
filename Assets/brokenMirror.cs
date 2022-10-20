@@ -7,16 +7,18 @@ public class brokenMirror : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer currentSpriteRenderer;
     [SerializeField] private Sprite[] storedImages;
+    [SerializeField] private LevelLoader ll;
     private int imageCounter = 0;
     private int click = 0;
     public uint maxClicks = 10;
-    public uint maxImageCounter = 4;
+    public uint maxImageCounter = 3;
 
     void Start()
     {
         currentSpriteRenderer = GetComponent<SpriteRenderer>();
         currentSpriteRenderer.sprite = storedImages[imageCounter];
         imageCounter = 0;
+        ll = FindObjectOfType<LevelLoader>();
     }
 
     void Update()
@@ -32,9 +34,9 @@ public class brokenMirror : MonoBehaviour
             }
         }
 
-        if (imageCounter == 4)
+        if (imageCounter == maxImageCounter)
         {
-            Debug.Log("ROTO");
+            ll.LoadNextLevel();
         }
        
     }
