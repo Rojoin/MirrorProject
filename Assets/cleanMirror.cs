@@ -12,10 +12,11 @@ public class cleanMirror : MonoBehaviour
     [SerializeField] private Vector2 startTouchPos = Vector2.zero;
  
     [SerializeField] private Vector2 endtTouchPos = Vector2.zero;
+    [SerializeField] private LevelLoader ll;
     void Start()
     {
         sr.material.color = new Color(sr.material.color.r, sr.material.color.b, sr.material.color.g, opacity);
-
+        ll = FindObjectOfType<LevelLoader>();
     }
 
     // Update is called once per frame
@@ -37,7 +38,10 @@ public class cleanMirror : MonoBehaviour
         }
 
         sr.material.color = new Color(sr.material.color.r, sr.material.color.b, sr.material.color.g, opacity);
-
+        if (opacity <= 0)
+        {
+            ll.LoadNextLevel();
+        }
     }
 
 
