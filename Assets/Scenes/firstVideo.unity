@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelLoader
       objectReference: {fileID: 0}
+    - target: {fileID: 1119363806285828473, guid: 74923501ef1ef8e45b1f41b4c150664a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1119363807391609303, guid: 74923501ef1ef8e45b1f41b4c150664a, type: 3}
       propertyPath: m_text
       value: 
@@ -370,6 +374,10 @@ PrefabInstance:
       propertyPath: currentClip
       value: 
       objectReference: {fileID: 32900000, guid: 45cdd4b4e1f0a6a44a6edaf39ae8a86b, type: 3}
+    - target: {fileID: 3586075798200962974, guid: 0d18053370ce41147ac2f9d0c9155f40, type: 3}
+      propertyPath: m_PlaybackSpeed
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d18053370ce41147ac2f9d0c9155f40, type: 3}
 --- !u!1001 &6333552566835385789
