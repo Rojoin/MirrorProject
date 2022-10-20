@@ -31,6 +31,7 @@ public class brokenMirror : MonoBehaviour
                 imageCounter++;
                 ChangeImage();
                 click = 0;
+                FMODUnity.RuntimeManager.PlayOneShotAttached("event:/SFX/Game/RomperEspejo", this.gameObject);
             }
         }
 

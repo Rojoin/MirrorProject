@@ -34,6 +34,7 @@ public class cleanMirror : MonoBehaviour
             if (Mathf.Abs(startTouchPos.x) != Mathf.Abs(endtTouchPos.x))
             {
                 opacity -= cleanForce;
+                FMODUnity.RuntimeManager.PlayOneShotAttached("event:/SFX/Game/LimpiarEspejo", this.gameObject);
             }
         }
 
