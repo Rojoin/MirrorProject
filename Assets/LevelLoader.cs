@@ -25,7 +25,7 @@ public class LevelLoader : MonoBehaviour
         transiton.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
         Debug.Log(SceneManager.sceneCountInBuildSettings);
-        if (SceneManager.GetActiveScene().buildIndex < SceneManager.sceneCountInBuildSettings - 1)
+        if (SceneManager.GetActiveScene().buildIndex < SceneManager.sceneCountInBuildSettings - 2)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }

@@ -369,7 +369,7 @@ PrefabInstance:
     - target: {fileID: 3586075798200962973, guid: 0d18053370ce41147ac2f9d0c9155f40, type: 3}
       propertyPath: currentClip
       value: 
-      objectReference: {fileID: 32900000, guid: 1bd52e7b1bbb35342a1172c160cd78c8, type: 3}
+      objectReference: {fileID: 32900000, guid: 5a929d92ed1fe4f42adcb61ea52f7d1e, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d18053370ce41147ac2f9d0c9155f40, type: 3}
 --- !u!1001 &6333552566835385789

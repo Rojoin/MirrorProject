@@ -373,7 +373,7 @@ PrefabInstance:
     - target: {fileID: 3586075798200962973, guid: 0d18053370ce41147ac2f9d0c9155f40, type: 3}
       propertyPath: currentClip
       value: 
-      objectReference: {fileID: 32900000, guid: 45cdd4b4e1f0a6a44a6edaf39ae8a86b, type: 3}
+      objectReference: {fileID: 32900000, guid: 8ea3d8f530cbe844882655eb000ae1db, type: 3}
     - target: {fileID: 3586075798200962974, guid: 0d18053370ce41147ac2f9d0c9155f40, type: 3}
       propertyPath: m_PlaybackSpeed
       value: 1
