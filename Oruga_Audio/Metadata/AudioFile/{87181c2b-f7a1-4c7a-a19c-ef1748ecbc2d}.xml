@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{87181c2b-f7a1-4c7a-a19c-ef1748ecbc2d}">
+		<property name="assetPath">
+			<value>SFX/Game/sfx_mg2_aahooh_loop.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>9.0652380952380955</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{80a8d798-b629-4a83-ba58-3ec6a018fc3e}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{0fb0ca0d-7afc-4acf-b8d7-3ee91d21354b}">
+		<property name="assetPath">
+			<value>Music/PrimeraEscena.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>26.666666666666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{80a8d798-b629-4a83-ba58-3ec6a018fc3e}</destination>
+		</relationship>
+	</object>
+</objects>

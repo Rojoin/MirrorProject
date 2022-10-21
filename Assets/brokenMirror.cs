@@ -26,11 +26,13 @@ public class brokenMirror : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             click++;
+            FMODUnity.RuntimeManager.PlayOneShotAttached("event:/SFX/Game/RomperEspejoClick", this.gameObject);
             if (click ==maxClicks && imageCounter<maxImageCounter)
             {
                 imageCounter++;
                 ChangeImage();
                 click = 0;
+                FMODUnity.RuntimeManager.PlayOneShotAttached("event:/SFX/Game/RomperEspejo", this.gameObject);
             }
         }
 
