@@ -364,6 +364,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: AUDIO
       objectReference: {fileID: 0}
+    - target: {fileID: 6607092219116608276, guid: 1f787bb9dce5d2a45b5d3605211ad070, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/Music/PrimerJuego
+      objectReference: {fileID: 0}
+    - target: {fileID: 6607092219116608276, guid: 1f787bb9dce5d2a45b5d3605211ad070, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 391315311
+      objectReference: {fileID: 0}
+    - target: {fileID: 6607092219116608276, guid: 1f787bb9dce5d2a45b5d3605211ad070, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1267235133
+      objectReference: {fileID: 0}
+    - target: {fileID: 6607092219116608276, guid: 1f787bb9dce5d2a45b5d3605211ad070, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: 1586283435
+      objectReference: {fileID: 0}
+    - target: {fileID: 6607092219116608276, guid: 1f787bb9dce5d2a45b5d3605211ad070, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: 1371702981
+      objectReference: {fileID: 0}
     - target: {fileID: 6607092219116608277, guid: 1f787bb9dce5d2a45b5d3605211ad070, type: 3}
       propertyPath: m_RootOrder
       value: 6

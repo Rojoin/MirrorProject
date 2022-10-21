@@ -15,11 +15,38 @@ MonoBehaviour:
   Path: Oruga_Audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638019060807767545
+  lastModified: 638019193261547660
   FileSizes:
   - Name: Desktop
-    Value: 4308448
+    Value: 5165536
   Exists: 1
+--- !u!114 &-8742946195442225005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Segunda Escena
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Segunda Escena
+  Guid:
+    Data1: 865378158
+    Data2: 1266642083
+    Data3: 398886557
+    Data4: -398433312
+  Banks:
+  - {fileID: -8793309580281197967}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12666
 --- !u!114 &-7522983845535492897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46,7 +73,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 600
+  Length: 650
+--- !u!114 &-6907886747367379553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/UltimoJuego
+  m_EditorClassIdentifier: 
+  Path: event:/Music/UltimoJuego
+  Guid:
+    Data1: 1459174822
+    Data2: 1239503348
+    Data3: -1217624936
+    Data4: 50949604
+  Banks:
+  - {fileID: -8793309580281197967}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8666
 --- !u!114 &-6809501815780609073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,10 +251,10 @@ MonoBehaviour:
   Path: Oruga_Audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638019060807820506
+  lastModified: 638019193261558618
   FileSizes:
   - Name: Desktop
-    Value: 1308
+    Value: 1450
   Exists: 1
 --- !u!114 &-578657444650121874
 MonoBehaviour:
@@ -257,12 +311,15 @@ MonoBehaviour:
   - {fileID: 8123678708355233669}
   - {fileID: -6809501815780609073}
   - {fileID: 1139766333055303292}
+  - {fileID: -8742946195442225005}
+  - {fileID: 2507276896390003762}
+  - {fileID: -6907886747367379553}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8793309580281197967}
   StringsBanks:
   - {fileID: -905321507938238802}
-  cacheTime: 638019060807820506
+  cacheTime: 638019193261558618
   cacheVersion: 131593
 --- !u!114 &1139766333055303292
 MonoBehaviour:
@@ -290,7 +347,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 70
+  Length: 47
+--- !u!114 &2507276896390003762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/PrimerJuego
+  m_EditorClassIdentifier: 
+  Path: event:/Music/PrimerJuego
+  Guid:
+    Data1: 391315311
+    Data2: 1267235133
+    Data3: 1586283435
+    Data4: 1371702981
+  Banks:
+  - {fileID: -8793309580281197967}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 39587
 --- !u!114 &3119201239119318777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -398,4 +482,4 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 340
+  Length: 730

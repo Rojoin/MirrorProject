@@ -136,23 +136,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6607092219116608276, guid: 1f787bb9dce5d2a45b5d3605211ad070, type: 3}
       propertyPath: EventReference.Path
-      value: event:/SFX/Game/Minigame 2 - Insultos
+      value: event:/Music/Segunda Escena
       objectReference: {fileID: 0}
     - target: {fileID: 6607092219116608276, guid: 1f787bb9dce5d2a45b5d3605211ad070, type: 3}
       propertyPath: EventReference.Guid.Data1
-      value: -296733064
+      value: 865378158
       objectReference: {fileID: 0}
     - target: {fileID: 6607092219116608276, guid: 1f787bb9dce5d2a45b5d3605211ad070, type: 3}
       propertyPath: EventReference.Guid.Data2
-      value: 1084562383
+      value: 1266642083
       objectReference: {fileID: 0}
     - target: {fileID: 6607092219116608276, guid: 1f787bb9dce5d2a45b5d3605211ad070, type: 3}
       propertyPath: EventReference.Guid.Data3
-      value: -1907049815
+      value: 398886557
       objectReference: {fileID: 0}
     - target: {fileID: 6607092219116608276, guid: 1f787bb9dce5d2a45b5d3605211ad070, type: 3}
       propertyPath: EventReference.Guid.Data4
-      value: -763197906
+      value: -398433312
       objectReference: {fileID: 0}
     - target: {fileID: 6607092219116608277, guid: 1f787bb9dce5d2a45b5d3605211ad070, type: 3}
       propertyPath: m_RootOrder
