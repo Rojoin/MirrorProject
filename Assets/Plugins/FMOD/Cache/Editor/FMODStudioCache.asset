@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Oruga_Audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638019060807767545
+  lastModified: 638019074606000399
   FileSizes:
   - Name: Desktop
     Value: 4308448
@@ -197,7 +197,7 @@ MonoBehaviour:
   Path: Oruga_Audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638019060807820506
+  lastModified: 638019074606010754
   FileSizes:
   - Name: Desktop
     Value: 1308
@@ -262,7 +262,7 @@ MonoBehaviour:
   - {fileID: -8793309580281197967}
   StringsBanks:
   - {fileID: -905321507938238802}
-  cacheTime: 638019060807820506
+  cacheTime: 638019074606010754
   cacheVersion: 131593
 --- !u!114 &1139766333055303292
 MonoBehaviour:

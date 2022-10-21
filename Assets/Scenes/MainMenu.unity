@@ -194,7 +194,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Credits
+  m_text: Creditos
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 98b3526897667c641a63f690182e6b51, type: 2}
   m_sharedMaterial: {fileID: -779338198816949364, guid: 98b3526897667c641a63f690182e6b51, type: 2}
@@ -221,12 +221,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 62.6
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 62.6
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
@@ -342,7 +342,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Play
+  m_text: Jugar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 98b3526897667c641a63f690182e6b51, type: 2}
   m_sharedMaterial: {fileID: -779338198816949364, guid: 98b3526897667c641a63f690182e6b51, type: 2}
@@ -490,7 +490,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Exit
+  m_text: Salir
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 98b3526897667c641a63f690182e6b51, type: 2}
   m_sharedMaterial: {fileID: -779338198816949364, guid: 98b3526897667c641a63f690182e6b51, type: 2}
@@ -1372,7 +1372,7 @@ RectTransform:
   m_GameObject: {fileID: 1880714932}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.66, y: 1.66, z: 1.66}
+  m_LocalScale: {x: 1.9, y: 1.9, z: 1.9}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1159533805}
@@ -1403,7 +1403,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 28bebe684c1d5e44987c110146a08d37, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c5f6c36dc020ce441b03372d125c1bd0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
