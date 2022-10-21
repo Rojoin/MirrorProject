@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Oruga_Audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638019030452847390
+  lastModified: 638019060807767545
   FileSizes:
   - Name: Desktop
-    Value: 4081152
+    Value: 4308448
   Exists: 1
 --- !u!114 &-7522983845535492897
 MonoBehaviour:
@@ -67,13 +67,13 @@ MonoBehaviour:
     Data4: 2056494095
   Banks:
   - {fileID: -8793309580281197967}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 14333
 --- !u!114 &-3933539783551361833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,10 +197,10 @@ MonoBehaviour:
   Path: Oruga_Audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638019030452929141
+  lastModified: 638019060807820506
   FileSizes:
   - Name: Desktop
-    Value: 1262
+    Value: 1308
   Exists: 1
 --- !u!114 &-578657444650121874
 MonoBehaviour:
@@ -256,13 +256,41 @@ MonoBehaviour:
   - {fileID: 9212479195862324889}
   - {fileID: 8123678708355233669}
   - {fileID: -6809501815780609073}
+  - {fileID: 1139766333055303292}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8793309580281197967}
   StringsBanks:
   - {fileID: -905321507938238802}
-  cacheTime: 638019030452929141
+  cacheTime: 638019060807820506
   cacheVersion: 131593
+--- !u!114 &1139766333055303292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Game/RomperEspejoClick
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Game/RomperEspejoClick
+  Guid:
+    Data1: -895635428
+    Data2: 1107767836
+    Data3: 221610641
+    Data4: -994646831
+  Banks:
+  - {fileID: -8793309580281197967}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70
 --- !u!114 &3119201239119318777
 MonoBehaviour:
   m_ObjectHideFlags: 0
