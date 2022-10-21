@@ -9,9 +9,9 @@ public class mirrorCharacter : MonoBehaviour
 
     [SerializeField] private Collider2D cl;
     [SerializeField] private LevelLoader ll;
-    private bool startTime = false;
+    [SerializeField] private bool startTime = false;
     private HashSet<Collider2D> colliders = new HashSet<Collider2D>();
-    private bool isHeadEmpty;
+    [SerializeField] private bool isHeadEmpty;
     public HashSet<Collider2D> GetColliders() { return colliders; }
 
 
@@ -20,37 +20,44 @@ public class mirrorCharacter : MonoBehaviour
         ll = FindObjectOfType<LevelLoader>();
         cl = GetComponentInChildren<Collider2D>();
         isHeadEmpty = false;
+        wordsOnFace = 7;
         StartCoroutine(waitSeconds());
     }
 
   
     void Update()
     {
-      if (isHeadEmpty & startTime)
+      wordsOnFace = GetColliders().Count;
+      if (isHeadEmpty && startTime)
       {
           Debug.Log("Flaco porque");
           ll.LoadNextLevel();
       }
 
-      if (GetColliders().Count == 0)
-      {
-          isHeadEmpty = true;
-      }
- 
+     
+
     }
     public void OnTriggerEnter2D(Collider2D other)
     {
         colliders.Add(other); //hashset automatically handles duplicates
+        wordsOnFace = GetColliders().Count;
     }
 
     public void OnTriggerExit2D(Collider2D other)
     {
         colliders.Remove(other);
+        wordsOnFace = GetColliders().Count;
+        if (wordsOnFace == 0)
+        {
+            isHeadEmpty = true;
+        }
     }
 
     IEnumerator waitSeconds()
     {
+        wordsOnFace = 7;
         yield return new WaitForSeconds(3f);
+        wordsOnFace = 7;
         startTime = true;
     }
 
