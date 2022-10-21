@@ -306,11 +306,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -148103508
-      Data2: 1097635578
-      Data3: 1863370673
-      Data4: 2030097243
-    Path: event:/Music/Ambient
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   Event: 
   PlayEvent: 1
   StopEvent: 2

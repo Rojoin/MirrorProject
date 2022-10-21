@@ -426,8 +426,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../FMOD Studio/Oruga_Audio/Oruga_Audio.fspro
-  sourceBankPath: ../../FMOD Studio/Oruga_Audio/Build
+  sourceProjectPath: Oruga_Audio/Oruga_Audio.fspro
+  sourceBankPath: Oruga_Audio/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1

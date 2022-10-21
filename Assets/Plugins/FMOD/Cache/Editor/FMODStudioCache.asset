@@ -1,33 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8067124751268116241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Game/Murmullos
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Game/Murmullos
-  Guid:
-    Data1: -296733064
-    Data2: 1084562383
-    Data3: -1907049815
-    Data4: -763197906
-  Banks:
-  - {fileID: 6648466549781925236}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 9065
---- !u!114 &-5761785667495765336
+--- !u!114 &-8793309580281197967
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
-  Path: ../../FMOD Studio/Oruga_Audio/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638018912281345040
+  Path: Oruga_Audio/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638019030452847390
   FileSizes:
   - Name: Desktop
-    Value: 1076
+    Value: 4081152
   Exists: 1
---- !u!114 &-4432630875110534568
+--- !u!114 &-7522983845535492897
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -57,23 +30,50 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Game/RomperEspejo
+  m_Name: event:/SFX/Game/LimpiarEspejo
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Game/RomperEspejo
+  Path: event:/SFX/Game/LimpiarEspejo
   Guid:
-    Data1: 352220671
-    Data2: 1216561579
-    Data3: -16038728
-    Data4: 1025183613
+    Data1: -186397168
+    Data2: 1262945858
+    Data3: 1822133690
+    Data4: 1393823597
   Banks:
-  - {fileID: 6648466549781925236}
+  - {fileID: -8793309580281197967}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &-6809501815780609073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Tercera Escena
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Tercera Escena
+  Guid:
+    Data1: 144843355
+    Data2: 1075885288
+    Data3: 1816342153
+    Data4: 2056494095
+  Banks:
+  - {fileID: -8793309580281197967}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 340
+  Length: 0
 --- !u!114 &-3933539783551361833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,7 +93,7 @@ MonoBehaviour:
     Data3: 1863370673
     Data4: 2030097243
   Banks:
-  - {fileID: 6648466549781925236}
+  - {fileID: -8793309580281197967}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -120,7 +120,7 @@ MonoBehaviour:
     Data3: 1942727590
     Data4: -1132110914
   Banks:
-  - {fileID: 6648466549781925236}
+  - {fileID: -8793309580281197967}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -128,6 +128,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &-2571059099426349585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Ultima Escena
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Ultima Escena
+  Guid:
+    Data1: 1930034333
+    Data2: 1270265128
+    Data3: -1930059347
+    Data4: -962925022
+  Banks:
+  - {fileID: -8793309580281197967}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 49584
 --- !u!114 &-1920480724233010059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,7 +174,7 @@ MonoBehaviour:
     Data3: -1697819771
     Data4: 784604970
   Banks:
-  - {fileID: 6648466549781925236}
+  - {fileID: -8793309580281197967}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -155,6 +182,53 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 500
+--- !u!114 &-905321507938238802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Oruga_Audio/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638019030452929141
+  FileSizes:
+  - Name: Desktop
+    Value: 1262
+  Exists: 1
+--- !u!114 &-578657444650121874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Game/Minigame 2 - Insultos
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Game/Minigame 2 - Insultos
+  Guid:
+    Data1: -296733064
+    Data2: 1084562383
+    Data3: -1907049815
+    Data4: -763197906
+  Banks:
+  - {fileID: -8793309580281197967}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9065
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,22 +242,26 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -5761785667495765336}
-  - {fileID: 6648466549781925236}
+  - {fileID: -905321507938238802}
+  - {fileID: -8793309580281197967}
   EditorEvents:
   - {fileID: -1920480724233010059}
   - {fileID: -3933539783551361833}
   - {fileID: -3721672898487669910}
   - {fileID: 3119201239119318777}
-  - {fileID: 4874144995699947165}
-  - {fileID: -8067124751268116241}
-  - {fileID: -4432630875110534568}
+  - {fileID: 7450800207139261024}
+  - {fileID: -2571059099426349585}
+  - {fileID: -7522983845535492897}
+  - {fileID: -578657444650121874}
+  - {fileID: 9212479195862324889}
+  - {fileID: 8123678708355233669}
+  - {fileID: -6809501815780609073}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 6648466549781925236}
+  - {fileID: -8793309580281197967}
   StringsBanks:
-  - {fileID: -5761785667495765336}
-  cacheTime: 638018912281345040
+  - {fileID: -905321507938238802}
+  cacheTime: 638019030452929141
   cacheVersion: 131593
 --- !u!114 &3119201239119318777
 MonoBehaviour:
@@ -204,7 +282,7 @@ MonoBehaviour:
     Data3: 1367730866
     Data4: -596038476
   Banks:
-  - {fileID: 6648466549781925236}
+  - {fileID: -8793309580281197967}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -212,7 +290,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 79938
---- !u!114 &4874144995699947165
+--- !u!114 &7450800207139261024
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -222,24 +300,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Game/LimpiarEspejo
+  m_Name: event:/Music/Primera Escena
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Game/LimpiarEspejo
+  Path: event:/Music/Primera Escena
   Guid:
-    Data1: -186397168
-    Data2: 1262945858
-    Data3: 1822133690
-    Data4: 1393823597
+    Data1: 1163438470
+    Data2: 1319697236
+    Data3: -1477265761
+    Data4: -1044123615
   Banks:
-  - {fileID: 6648466549781925236}
+  - {fileID: -8793309580281197967}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1000
---- !u!114 &6648466549781925236
+  Length: 26666
+--- !u!114 &8123678708355233669
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -248,14 +326,48 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/End Theme
   m_EditorClassIdentifier: 
-  Path: ../../FMOD Studio/Oruga_Audio/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638018912281268325
-  FileSizes:
-  - Name: Desktop
-    Value: 2069024
-  Exists: 1
+  Path: event:/Music/End Theme
+  Guid:
+    Data1: -685165390
+    Data2: 1249393045
+    Data3: 1704385930
+    Data4: 1379084507
+  Banks:
+  - {fileID: -8793309580281197967}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 79938
+--- !u!114 &9212479195862324889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Game/RomperEspejo
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Game/RomperEspejo
+  Guid:
+    Data1: 352220671
+    Data2: 1216561579
+    Data3: -16038728
+    Data4: 1025183613
+  Banks:
+  - {fileID: -8793309580281197967}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 340

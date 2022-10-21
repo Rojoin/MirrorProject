@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5e899fd7-0320-45ee-94a2-3928538b8d26}">
+		<property name="assetPath">
+			<value>Music/music_oruga_main_ost.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>79.938004535147385</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{80a8d798-b629-4a83-ba58-3ec6a018fc3e}</destination>
+		</relationship>
+	</object>
+</objects>
