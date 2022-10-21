@@ -99,7 +99,7 @@
 			<value>39.58761904761905</value>
 		</property>
 		<property name="volume">
-			<value>5.5</value>
+			<value>10</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{b9968566-0325-497c-b8dd-165c2263d99e}</destination>
@@ -142,6 +142,9 @@
 		</property>
 		<property name="attackTime">
 			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>6200</value>
 		</property>
 		<property name="finalValue">
 			<value>-80</value>
